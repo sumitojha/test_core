@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+<table style="width:50%">
+    <caption>Dashboard</caption>
+		<tr>
+		    <th>Total Users</th>
+            <td>{{ object_list.user }}</td>
+        </tr>
+        <tr>
+		    <th>Total Questions</th>
+            <td>{{ object_list.user }}</td>
+        </tr>
+        <tr>
+		    <th>Total Answers</th>
+            <td>{{ object_list.question }}</td>
+		</tr>
+        <tr>
+            <th>Total API Count</th>
+            <td>{{ object_list.tenant }}</td>
+        </tr>
+</table>
+
+</body>
+</html>

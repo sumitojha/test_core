@@ -1,0 +1,41 @@
+[
+  {
+    "pk": 1,
+    "model": "QA.answer",
+    "fields": {
+      "body": "First Answer",
+      "user":1,
+      "question":1
+    }
+  },
+
+  {
+    "pk": 2,
+    "model": "QA.answer",
+    "fields": {
+      "body": "Second Answer",
+      "user":1,
+      "question":2
+    }
+  },
+
+  {
+  "pk": 3,
+  "model": "QA.answer",
+  "fields": {
+    "body": "Third Answer",
+    "user":1,
+    "question":3
+  }
+},
+
+  {
+  "pk": 3,
+  "model": "QA.answer",
+  "fields": {
+    "body": "Fourth Answer",
+    "user":1,
+    "question":4
+  }
+}
+]

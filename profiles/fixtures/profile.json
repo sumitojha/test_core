@@ -1,0 +1,24 @@
+[
+
+  {
+    "pk": 2,
+    "model": "profiles.user",
+    "fields": {
+      "name": "Vinit"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "profiles.user",
+    "fields": {
+      "name": "Sumit"
+    }
+  },
+
+  {
+  "pk": 3,
+  "model": "profiles.user",
+  "fields": {
+    "name":"Punit"
+  }
+}]

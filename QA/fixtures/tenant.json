@@ -1,0 +1,27 @@
+[
+  {
+    "pk": 1,
+    "model": "QA.tenant",
+    "fields": {
+      "name": "First Tenant",
+      "api_key":"abcd"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "QA.tenant",
+    "fields": {
+      "name": "Second Tenant",
+      "api_key":"abcde"
+    }
+  },
+
+  {
+  "pk": 3,
+  "model": "QA.tenant",
+  "fields": {
+    "name": "Third Tenant",
+    "api_key":"abcdef"
+  }
+}
+]
